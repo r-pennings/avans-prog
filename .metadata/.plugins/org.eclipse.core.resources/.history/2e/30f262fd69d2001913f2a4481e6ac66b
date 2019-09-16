@@ -1,0 +1,51 @@
+
+public class Ship {
+
+	// CONSTANTS
+	public static final int CARRIER_SIZE = 5;
+	public static final int BATTLESHIP_SIZE = 4;
+	public static final int SUBMARINE_SIZE = 3;
+	public static final int DESTROYER_SIZE = 3;
+	public static final int PATROL_SIZE = 2;
+
+	// VARIABLES
+	private ShipType type;
+	private int length;
+	private boolean isVertical;
+	private int shotCount;
+
+	public Ship(ShipType type, int length, boolean isVertical) {
+		this.type = type;
+		this.length = length;
+		this.isVertical = isVertical;
+	}
+
+	public String getType() {
+		switch (type) {
+		case CARRIER:
+			return "Vliegdekschip";
+		case SUBMARINE:
+			return "Onderzeeër";
+		case PATROL:
+			return "Patrouilleboot";
+		default:
+			return "Undefined";
+		}
+	}
+
+	public int getLength() {
+		return length;
+	}
+
+	public int getShotCount() {
+		return shotCount;
+	}
+
+	public boolean isVertical() {
+		return isVertical;
+	}
+
+	public char getIcon() {
+		return getType().charAt(0);
+	}
+}

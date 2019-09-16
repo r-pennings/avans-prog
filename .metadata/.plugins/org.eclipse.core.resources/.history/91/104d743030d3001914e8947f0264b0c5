@@ -1,0 +1,38 @@
+
+
+public class Language {
+
+	// General
+	public static final String welcome = "Welkom bij het spelletje Zeeslag!";
+	public static final String intro = "Probeer de oorlogsbodems van je tegenstander tot zinken te brengen voor hij jouw boten te pakken heeft genomen.";
+
+	public static final String thankYou = "Bedankt voor het spelen van het spelletje Zeeslag.";
+	public static final String goodBye = "Hopelijk tot een volgende keer!";
+	
+	public static final String currentTurn = "*** Aan de beurt: %s ***%n";
+
+	// Errors
+	public static final String somethingWrong = "Er is iets misgegaan... ";
+	public static final String invalidAmountOfPlayers = "*** Dat is geen geldig aantal spelers! ***";
+	public static final String invalidPlayerName = "*** Dat is geen geldige spelersnaam! ***";
+	public static final String invalidNewGame = "*** Dat is geen geldig antwoord! ***";
+
+	public static final String noPlayers = "Er zijn geen spelers gezet, probeer het een andere keer weer!";
+
+	public static final String columnNotExists = "*** Kolom %s bestaat niet%n";
+	public static final String rowNotExists = "*** Rij %s bestaat niet%n";
+	
+	// Console output
+	public static final String boardFooter = "  +--------------------%n    A B C D E F G H I J%n%n";
+	
+	public static final String shipHit = "Bravo, je hebt een schip geraakt.";
+	public static final String shipMissed = "Helaas, dat was een misser.";
+	public static final String shipSunk = "Sterker nog, dit schip van het type %s is nu gezonken! %n";
+	
+	public static final String cheatEndGame = "*** Vanwege de cheat mode is het spel nu al afgelopen ***";
+	public static final String playAgain = "Wil je nog een keer spelen (ja/nee)? ";
+	
+	public static final String inputAmountOfPlayers = "Geef aantal spelers (1/2): ";
+	public static final String inputPlayerName = "Geef de naam van speler %s: ";
+	public static final String inputLocation = "%s, geef de locatie die je wilt beschieten: ";
+}

@@ -1,0 +1,18 @@
+
+public class Constants {
+
+	// SIZES
+	public static final int CARRIER_SIZE = 5;
+	public static final int BATTLESHIP_SIZE = 4;
+	public static final int SUBMARINE_SIZE = 3;
+	public static final int DESTROYER_SIZE = 3;
+	public static final int PATROL_SIZE = 2;
+	
+	// SHOTS
+	public static final char SHOT_MISSED = '~';
+	public static final char SHOT_HIT = '*';
+	
+	// BOARD
+	public static final char[] BOARD_LETTERS = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'};
+	public static final int BOARD_SIZE = 10;
+}

@@ -1,0 +1,10 @@
+package Includes;
+
+public enum ShipType {
+
+	CARRIER,
+	BATTLESHIP,
+	SUBMARINE,
+	DESTROYER,
+	PATROL
+}

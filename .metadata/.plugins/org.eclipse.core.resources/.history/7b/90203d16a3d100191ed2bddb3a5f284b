@@ -1,0 +1,30 @@
+
+public class Square {
+
+	// CONSTANTS
+	public static final char MISSED = '~';
+	public static final char HIT = '*';
+	public static final char SUNK = 'V';
+	public static final char DOT = '.';
+	
+	// VARIABLES
+	private Ship ship;
+	private boolean isShot;
+
+	public Square(Ship ship) {
+		this.ship = ship;
+		isShot = false;
+	}
+	
+	public boolean isShot() {
+		return isShot;
+	}
+	
+	public void setShip(Ship ship) {
+		this.ship = ship;
+	}
+	
+	public Ship getShip() {
+		return ship;
+	}
+}

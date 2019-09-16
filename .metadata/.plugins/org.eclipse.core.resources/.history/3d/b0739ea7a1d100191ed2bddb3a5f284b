@@ -1,0 +1,23 @@
+
+public class Square {
+
+	private Ship ship;
+	private boolean isShot;
+
+	public Square(Ship ship) {
+		this.ship = ship;
+		isShot = false;
+	}
+	
+	public boolean isShot() {
+		return isShot;
+	}
+	
+	public void setShip(Ship ship) {
+		this.ship = ship;
+	}
+	
+	public Ship getShip() {
+		return ship;
+	}
+}

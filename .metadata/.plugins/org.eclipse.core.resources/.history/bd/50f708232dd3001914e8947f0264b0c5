@@ -1,0 +1,10 @@
+package com.zeeslag.includes;
+
+public enum ShipType {
+
+	CARRIER,
+	BATTLESHIP,
+	SUBMARINE,
+	DESTROYER,
+	PATROL
+}

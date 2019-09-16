@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;Value&apos; in &apos;IntClass&apos; to &apos;value&apos;&#x0D;&#x0A;- Original project: &apos;PROG1_PR7a&apos;&#x0D;&#x0A;- Original element: &apos;IntClass.Value&apos;&#x0D;&#x0A;- Renamed element: &apos;IntClass.value&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;Value&apos;" flags="589826" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;{IntClass.java[IntClass^Value" name="value" references="true" setter="false" stamp="1567759804628" textual="false" version="1.0"/>
+</session>

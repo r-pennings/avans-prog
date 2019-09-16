@@ -1,0 +1,7 @@
+
+public class Constants {
+	
+	// BOARD
+	public static final char[] BOARD_LETTERS = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'};
+	public static final int BOARD_SIZE = 10;
+}

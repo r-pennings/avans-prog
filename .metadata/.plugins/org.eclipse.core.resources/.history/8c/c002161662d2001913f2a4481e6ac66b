@@ -1,0 +1,7 @@
+
+public enum SquareState {
+	MISSED,
+	WATER,
+	HIT,
+	SUNK
+}

@@ -1,0 +1,13 @@
+
+public class Constants {
+
+	// CHARS
+	public static final char SHOT_MISSED = '~';
+	public static final char SHOT_HIT = '*';
+	public static final char BOAT_SUNK = 'V';
+	public static final char DOT = '.';
+	
+	// BOARD
+	public static final char[] BOARD_LETTERS = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'};
+	public static final int BOARD_SIZE = 10;
+}

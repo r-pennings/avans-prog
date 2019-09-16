@@ -1,0 +1,17 @@
+INDEX VERSION 1.131+C:\Users\roelp\OneDrive\Documenten\EclipseProjecten\.metadata\.plugins\org.eclipse.jdt.core
+303998826.index
+1869173551.index
+4210876544.index
+4017828820.index
+1987207790.index
+3101475205.index
+1145307372.index
+150902718.index
+3712831830.index
+272247049.index
+184915499.index
+3293995031.index
+1653722117.index
+2450311057.index
+1566519725.index
+4133487253.index

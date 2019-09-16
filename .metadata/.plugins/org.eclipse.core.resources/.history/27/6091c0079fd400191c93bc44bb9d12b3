@@ -1,0 +1,13 @@
+
+
+/**
+ * All the possible 
+ *
+ */
+public enum ShipType {
+	CARRIER,
+	BATTLESHIP,
+	SUBMARINE,
+	DESTROYER,
+	PATROL
+}

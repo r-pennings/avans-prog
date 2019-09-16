@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;LED&apos; to &apos;Led&apos;&#x0D;&#x0A;- Original project: &apos;PROG1_PR5a&apos;&#x0D;&#x0A;- Original element: &apos;LED&apos;&#x0D;&#x0A;- Renamed element: &apos;Led&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LED&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{LED.java[LED" matchStrategy="1" name="Led" qualified="false" references="true" similarDeclarations="false" stamp="1567422630067" textual="false" version="1.0"/>
+</session>
