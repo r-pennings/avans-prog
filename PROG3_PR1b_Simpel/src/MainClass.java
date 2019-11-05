@@ -2,25 +2,23 @@
 public class MainClass {
 
 	public static void main(String[] args) {
-		Charmander cmander = new Charmander();
-		Charmeleon cmelion = new Charmeleon();
-		Charizard czard = new Charizard();
+		Chiwawa hond1 = new Chiwawa();
+		Retreever hond2 = new Retreever();
+		Chiwawa hond3 = new Chiwawa();
 		
-		cmander.showData();
-		cmander.speak();
-		cmander.doMainAttack();
-		cmander.doSecAttack();
+		// Chiwawa with name
+		hond1.setName("Jimmy");
+		hond1.bark();
+		hond1.walk();
 		
-		cmelion.showData();
-		cmelion.speak();
-		cmelion.doMainAttack();
-		cmelion.doSecAttack();
+		// Retreever with name
+		hond2.setName("Timmy");
+		hond2.bark();
+		hond2.walk();
 		
-		czard.showData();
-		czard.speak();
-		czard.doMainAttack();
-		czard.doSecAttack();
-
+		// Chiwawa without name
+		hond3.bark();
+		hond3.walk();
 	}
 
 }

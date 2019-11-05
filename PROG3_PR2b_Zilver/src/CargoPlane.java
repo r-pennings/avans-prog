@@ -6,7 +6,7 @@ public class CargoPlane extends Airplane implements Trackable {
 	public CargoPlane(int x, int y, int h) {
 		super(x, y, h);
 
-		this.cargoType = "";
+		this.cargoType = "nothing";
 	}
 
 	public void loadUp(String cargo) {

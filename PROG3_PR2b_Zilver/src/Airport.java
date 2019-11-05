@@ -12,10 +12,14 @@ public class Airport {
 
 	public void addPlane(Airplane ap) {
 		planes.add(ap);
+		
 		if (ap instanceof Trackable) {
 			radar.addTrackable((Trackable) ap);
 		}
-
+	}
+	
+	public void addShip(Ship s) {
+		radar.addTrackable(s);
 	}
 
 	public Airplane getPlane(int index) {
@@ -24,6 +28,8 @@ public class Airport {
 
 	public void showAllContents() {
 		radar.showTrackables();
+		
+		System.out.println();
 		
 		for (Airplane plane : planes) {
 			if (plane instanceof CargoPlane) {
