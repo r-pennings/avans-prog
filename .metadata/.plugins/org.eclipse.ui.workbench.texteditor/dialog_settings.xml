@@ -16,10 +16,6 @@
 			<item value="isValidAmountOfPlayers"/>
 			<item value="putInPlayfield"/>
 			<item value="getRandom"/>
-			<item value="isValidInput"/>
-			<item value="isPosInField"/>
-			<item value="r."/>
-			<item value="r"/>
 		</list>
 		<list key="replacehistory">
 		</list>

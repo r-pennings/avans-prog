@@ -1,9 +1,0 @@
-
-public enum SquareState {
-	MISSED = '~',
-			
-	WATER = '~',
-	HIT = '*',
-	SUNK = 'V',
-	DOT = '.',
-}

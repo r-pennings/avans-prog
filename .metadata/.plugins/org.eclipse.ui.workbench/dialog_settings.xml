@@ -25,8 +25,8 @@
 	<section name="FileSystemImportWizard">
 	</section>
 	<section name="WorkbenchPreferenceDialogSettings">
-		<item key="DIALOG_X_ORIGIN" value="651"/>
-		<item key="DIALOG_Y_ORIGIN" value="163"/>
+		<item key="DIALOG_X_ORIGIN" value="595"/>
+		<item key="DIALOG_Y_ORIGIN" value="70"/>
 	</section>
 	<section name="FileSystemExportWizard">
 		<item key="WizardFileSystemResourceExportPage1.STORE_OVERWRITE_EXISTING_FILES_ID" value="false"/>
@@ -34,6 +34,12 @@
 		<item key="WizardFileSystemResourceExportPage1.STORE_RESOLVE_LINKED_RESOURCES_ID" value="false"/>
 		<list key="WizardFileSystemResourceExportPage1.STORE_DESTINATION_NAMES_ID">
 			<item value="D:\roelp\Documenten\Avans\PROG1\Tentamen"/>
+		</list>
+	</section>
+	<section name="PreferencesImportWizard">
+		<item key="" value="D:\roelp\Downloads\theme-1115.epf"/>
+		<list key="WizardPreferencesExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="D:\roelp\Downloads\theme-1115.epf"/>
 		</list>
 	</section>
 </section>
