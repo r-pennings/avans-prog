@@ -6,8 +6,10 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="randomStartChar"/>
+		<item key="selection" value="&quot;"/>
 		<list key="findhistory">
+			<item value="&quot;"/>
+			<item value="setId"/>
 			<item value="randomStartChar"/>
 			<item value="getSquareByCoordinate"/>
 			<item value="isSquareFree"/>
